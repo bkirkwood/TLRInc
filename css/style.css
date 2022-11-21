@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#tip-title{
+  font-size:4.5vw;
+  margin-bottom:0%;
+}
+#pic-img{
+  height:10vw;
+  width:19.15vw;
+}
+#title-subheader{
+  font-size:2vw;
+}
+#top-title{
+  text-transform:capitalize;
+  line-height:normal;
+  text-align:right;
+}
+#header-titles{
+  width:65%;
+  margin-left:10%;
+  text-align: left;
+  float: left;
+}
+#header-image{
+  width:20%;
+  margin-right:5%;
+  text-align:right;
+   float: left;
+}
+.btn-group button {
+  background-color: #1D4273; /* Blue background */
+  border: 1px solid #1D4273; /* Blue border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #18B8CC;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1D4273;
+  color: white;
+  text-align: center;
+}
+
+
+
+body
+{
+	background-color: #1D4273;
+	padding: 2%;
+	color: #ccc;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+a
+{
+	color: #0CC5DA;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #DCE808;
+	text-decoration: underline;
+}
+
+p
+{
+  margin: 0 auto;
+  width: 960px;
+  margin-top: 1%;
+  text-align: center;
+}
+
+p.larger
+{
+  font-size: 1.1em;
+}
+
+.container
+{
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.container span
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	position: absolute;
+}
+
+.container ul, .container li
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.container li
+{
+	display: none;
+}
+
+.container li.active
+{
+	display: inline;
+}
+
+img {
+	max-width : 100% ;
+	height : auto;
+}

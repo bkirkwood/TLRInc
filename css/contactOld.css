@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#tip-title{
+  font-size:4.5vw;
+  margin-bottom:0%;
+}
+#pic-img{
+  height:10vw;
+  width:19.15vw;
+}
+#title-subheader{
+  font-size:2vw;
+}
+#top-title{
+  text-transform:capitalize;
+  line-height:normal;
+  text-align:right;
+}
+#header-titles{
+  width:65%;
+  margin-left:10%;
+  text-align: left;
+  float: left;
+}
+#header-image{
+  width:20%;
+  margin-right:5%;
+  text-align:right;
+   float: left;
+}
+.btn-group button {
+  background-color: #1D4273; /* Blue background */
+  border: 1px solid #1D4273; /* Blue border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #18B8CC;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1D4273;
+  color: white;
+  text-align: center;
+}
+
+
+
+body
+{
+	background-color: #1D4273;
+	padding: 2%;
+	color: #ccc;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
+a
+{
+	color: #0CC5DA;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #DCE808;
+	text-decoration: underline;
+}
+
+p
+{
+  margin: 0 auto;
+  width: 960px;
+  margin-top: 1%;
+  text-align: center;
+}
+
+p.larger
+{
+  font-size: 1.1em;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} 
+
+img {
+	max-width : 100% ;
+	height : auto;
+}
+
+#formContainer{
+  width:40%;
+  margin:auto;
+}
+#formC{
+  width:100%;
+}
+.rows{
+  width:100%;
+  display:block;
+
+}
+.column{
+    width:100%;
+    display:inline-block;
+    
+}
+.theLabels{
+  width:30%;
+  float:left;
+}
+
+.theInputs{
+  
+
+  width:60%;
+  float:right;
+}
