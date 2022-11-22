@@ -5,12 +5,31 @@
 <title>TLR Inc Contact Page</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/tlrcontactpage.css">
+	
+	<style> 
+		.form-group {
+			max-width: 20%;
+			margin: auto;
+		}
+	</style>
+	
+	
+	
 </head>
 
+	
 <body>
 	<div class="container">
-  <h1>FormSubmit Demo</h1>
-  <form target="_blank" action="https://formsubmit.co/info@tlrinc.biz" method="POST">
+  <h1>Send a comment or ask a question.</h1>
+		<h4> We usually respond in 1 to 2 business days.</h4>
+  <form target="_blank" action="https://formsubmit.co/b515dbf98314b73513a89b26dbd2ae1a" method="POST">
+	  
+	  <!-- Honeypot -->
+	  <input type="text" name="honey" style="display: none;">
+	  
+	  <!-- Diable Captcha -->
+	  <input type="hidden" name="_captcha" value="false">
+	  
     <div class="form-group">
       <div class="form-row">
         <div class="col">
@@ -27,7 +46,9 @@
     <div class="form-group">
       <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
     </div>
+	
     <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+
   </form>
 </div>
 </body>
